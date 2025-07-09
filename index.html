@@ -10,7 +10,7 @@
       color: white;
       font-family: Arial, sans-serif;
       text-align: center;
-      padding: 40px 20px;
+      padding: 30px 20px;
       position: relative;
       min-height: 100vh;
       overflow-y: auto;
@@ -32,40 +32,40 @@
     .container {
       position: relative;
       z-index: 1;
-      padding: 30px;
+      padding: 25px;
       border-radius: 15px;
       max-width: 500px;
       margin: 0 auto;
     }
 
     .logo {
-      width: 120px;
+      width: 100px;
       margin-bottom: 10px;
     }
 
     .college-name {
-      font-size: 1.2em;
-      margin-bottom: 5px;
+      font-size: 1.1em;
       font-weight: bold;
+      margin-bottom: 4px;
     }
 
     .subtitle {
-      font-size: 1em;
+      font-size: 0.95em;
       margin-bottom: 20px;
       color: #ffcc00;
     }
 
     h1 {
-      font-size: 1.6em;
-      margin-bottom: 20px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      font-size: 1.4em;
+      margin-bottom: 15px;
+      white-space: normal;
+      line-height: 1.3em;
     }
 
     .contact-info {
-      font-size: 1.2em;
-      line-height: 1.8em;
+      font-size: 1em;
+      line-height: 1.6em;
+      word-break: break-word;
     }
 
     .contact-info a {
@@ -75,6 +75,28 @@
 
     .contact-info a:hover {
       text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      .logo {
+        width: 80px;
+      }
+
+      .college-name {
+        font-size: 1em;
+      }
+
+      .subtitle {
+        font-size: 0.9em;
+      }
+
+      h1 {
+        font-size: 1.2em;
+      }
+
+      .contact-info {
+        font-size: 0.95em;
+      }
     }
   </style>
 </head>
